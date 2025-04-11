@@ -1,11 +1,23 @@
-# Dijkstra Path Planning Algorithm
+#Path Planning Algorithm
 
 ## Description
 
 ce dépôt contient des algorithmes de A*, dijkstra, greedy qui permet de planifier la trajectoire du robot pour atteindre un but.
 
-## Installation
+### Prérequis
+Avant de pouvoir utiliser l'algorithme, assurez-vous que les outils suivants sont installés sur votre machine :
 
+- **ROS Noetic** (ou une version compatible)
+- **Python 3** et les packages nécessaires
+- **`gridviz`** : Pour la visualisation de la grille
+- **Les modules d'algorithmes** (Dijkstra, A*, etc.)
+
+### Étapes d'installation
+
+Clonez le dépôt :
+   ```bash
+   git clone https://github.com/ton-utilisateur/dijkstra-path-planning.git
+```
 vérifier si vous avez la version 3 de python 
 bash
 ```
@@ -16,6 +28,8 @@ bash
 ```
 sudo apt install python3
 ```
+
+## Procédure :
 
 dézippez le fichier `workspace` et sourcez les fichiers :
 bash
@@ -55,16 +69,3 @@ Par d´efaut, l’algorithme astar est actif. Pour changer d’algorithme de pla
 ```
  src/global_path_planning/src/path_planning_server.py
 ```
-### Prérequis
-Avant de pouvoir utiliser l'algorithme, assurez-vous que les outils suivants sont installés sur votre machine :
-
-- **ROS Noetic** (ou une version compatible)
-- **Python 3** et les packages nécessaires
-- **`gridviz`** : Pour la visualisation de la grille
-- **Les modules d'algorithmes** (Dijkstra, A*, etc.)
-
-### Étapes d'installation
-
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/ton-utilisateur/dijkstra-path-planning.git
