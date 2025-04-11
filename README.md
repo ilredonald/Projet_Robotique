@@ -15,7 +15,7 @@ Avant de pouvoir utiliser l'algorithme, assurez-vous que les outils suivants son
 ### Étapes d'installation
 
 Clonez le dépôt :
-   ```bash
+```bash
    git clone https://github.com/ilredonald/Projet_Robotique.git
 ```
 vérifier si vous avez la version 3 de python 
@@ -60,10 +60,10 @@ Lancez la simulation TurtleBot3, et laissez le terminal ouvert. Une fenêtre Gaz
  rosrun global_path_planning path_planning_server.py
 ```
  Dans la fenêtre RViz, sélectionnez le bouton 2D Nav Goal et indiquez la position cible sur la carte.
- L’orientation peut ˆ etre d´ efinie en maintenant et d´ epla¸ cant le curseur. Après avoir d´ efini la position,
+ L’orientation peut être définie en maintenant et déplaçant le curseur. Après avoir défini la position,
  la visualisation de l’algorithme de planification de chemin choisi démarrera.
  
-Par d´efaut, l’algorithme astar est actif. Pour changer d’algorithme de planification (choix entre
+Par défaut, l’algorithme astar est actif. Pour changer d’algorithme de planification (choix entre
  astar, dijkstra, greedy), modifiez le fichier :
  bash
 ```
