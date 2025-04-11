@@ -10,7 +10,8 @@ Cet algorithme est couramment utilisé dans des applications de robotique pour l
 
 vérifier si vous avez la version 3 de python 
 bash
-```sudo apt update
+```
+sudo apt update
 ```
 télécharger si non:
 
