@@ -16,7 +16,7 @@ Avant de pouvoir utiliser l'algorithme, assurez-vous que les outils suivants son
 
 Clonez le dépôt :
    ```bash
-   git clone https://github.com/ton-utilisateur/dijkstra-path-planning.git
+   git clone https://github.com/ilredonald/Projet_Robotique.git
 ```
 vérifier si vous avez la version 3 de python 
 bash
